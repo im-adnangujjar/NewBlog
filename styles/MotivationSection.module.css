@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.icon {
+  float: left;
+  background: #fff;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #006aee;
+  transition: all 0.3s ease-in-out;
+}
+
+.description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.title {
+  margin-left: 80px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.iconbox {
+  background: #fff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+.iconbox:hover .icon {
+  background-color: var(--main-color);
+}

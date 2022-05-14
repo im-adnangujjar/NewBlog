@@ -1,0 +1,47 @@
+.headerSection {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #fff;
+  line-height: 1.8;
+}
+
+.headerSection p {
+  color: #fff;
+}
+
+.sectionTitle {
+  color: #fff;
+}
+
+.courseImage {
+  width: 60%;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .text_align {
+    text-align: center;
+  }
+  .courseImage {
+    text-align: center;
+    margin: 3rem auto 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text_align {
+    text-align: center;
+  }
+
+  .headerSection {
+    padding: 3rem 1rem;
+  }
+
+  .courseImage {
+    text-align: center;
+    margin: 3rem auto 0 auto;
+  }
+  .headerSection button {
+    padding: 0.6rem;
+  }
+}

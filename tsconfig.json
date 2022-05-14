@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/component/userWeb/Motivation/Title.tsx", "src/component/userWeb/Motivation/Motivation.jsx", "src/component/userWeb/faqs/Question.jsx", "src/commonComponent/imagesCard/ImagesCard.js", "src/component/userWeb/firstSection/FirstSection.js", "src/commonComponent/card/Card.js", "src/component/userWeb/firstSection/FirstSection.js"],
+  "exclude": ["node_modules"]
+}

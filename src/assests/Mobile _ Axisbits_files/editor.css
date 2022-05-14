@@ -1,0 +1,18 @@
+.ct-widget .ct-ignition__button--edit {
+    background: #3067f1!important;
+}
+.ct-widget .ct-ignition__button--edit:hover {
+    background: #104eeb!important;
+}
+.ct-widget .ct-ignition__button--confirm,
+.ct-widget .ct-ignition__button--confirm:hover {
+    background: #33d879!important;
+}
+.ct-widget .ct-ignition__button--cancel,
+.ct-widget .ct-ignition__button--cancel:hover {
+    background: #ec2d19!important;
+}
+.ce-element--focused, .ce-element--over {
+    background-color: #104eeb!important;
+    color: #fff!important;
+}

@@ -1,0 +1,18 @@
+.buttonColor{
+    background-color: var(--main-color);
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    font-size: 17px;
+    color: white;
+    transition: 0.7s;
+}
+.buttonColor:hover{
+    background-color: white;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+
+}

@@ -1,0 +1,54 @@
+.image{
+    width: 100%;
+    height: auto
+}
+
+.dateHeading {
+    font-size: 14px;
+    margin: 0px 0px 5px;
+    color: #858993;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1235px) {
+    .dateHeading {
+        margin: 5px 0px ;
+    }
+}
+
+.description {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 0px 2px;
+    margin: 0px 0px 20px;
+}
+
+@media screen and (max-width: 1235px) {
+    .description {
+        margin: 5px 0px 5px;
+        font-size: 15px;
+    }
+}
+
+.read {
+    font-size: 14px;
+    color: #6b717f;
+}
+
+.display1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 22px 0px 0px;
+}
+
+@media screen and (max-width: 1235px) {
+    .display1 {
+        margin: 0x 
+    }
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}

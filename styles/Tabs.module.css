@@ -1,0 +1,26 @@
+.mainContainer {
+    padding: 0px 30px
+}
+@media screen and (max-width: 996px) {
+    .mainContainer {
+        padding: 10px
+    }
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    padding:0px 20px
+}
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+.scroll {
+    overflow-x: auto;
+    /* width: 100%; */
+    
+    padding:0px 30px
+}

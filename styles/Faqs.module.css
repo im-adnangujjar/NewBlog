@@ -1,0 +1,32 @@
+
+.align{
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.title:hover:after {
+  width: 100%;
+  right: 0;
+}
+.title:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  right: 0;
+  position: absolute;
+  background: var(--main-color);
+  transition: width 1s ease 0s, right 0.5s ease 0s;
+  width: 50%;
+}
+
